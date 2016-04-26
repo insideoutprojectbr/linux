@@ -79,7 +79,7 @@ footer .apoio {
 }
 
 
-@media only screen and (max-device-width: 320px) {
+@media only screen and (max-device-width: 440px) {
     .insideout-logo {
         width: 85%;
     }
