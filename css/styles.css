@@ -5,23 +5,31 @@
 
 body {
     background-color: #2b2e33;
+    font-family: Ubuntu, sans-serif;
 }
 
-header {
+header, footer {
     text-align: center;
     vertical-align: middle;
     display: table;
     margin: 3em auto;
 }
 
-.insideout-logo {
+footer .apoio {
+    font-size: 2em;
+    color: #fff;
+    margin-right: 2em;
+    vertical-align: middle;
+}
+
+
+.insideout-logo, .ciet-logo {
     vertical-align: middle;
 }
 
 .event-name {
     text-transform: uppercase;
     color: #00cc66;
-    font-family: Ubuntu, sans-serif;
     font-size: 3.5em;
     vertical-align: middle;
     margin-left: 0.5em;
@@ -70,6 +78,7 @@ header {
     padding: 2em;
 }
 
+
 @media only screen and (max-device-width: 320px) {
     .insideout-logo {
         width: 85%;
@@ -95,5 +104,9 @@ header {
         padding: 1.2em;
     }
 
-
+    footer .apoio {
+        margin-right: 0;
+        margin-bottom: 1em;
+        display: block;
+    }
 }
