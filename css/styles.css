@@ -1,0 +1,99 @@
+*, html {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: #2b2e33;
+}
+
+header {
+    text-align: center;
+    vertical-align: middle;
+    display: table;
+    margin: 3em auto;
+}
+
+.insideout-logo {
+    vertical-align: middle;
+}
+
+.event-name {
+    text-transform: uppercase;
+    color: #00cc66;
+    font-family: Ubuntu, sans-serif;
+    font-size: 3.5em;
+    vertical-align: middle;
+    margin-left: 0.5em;
+}
+
+.editor {
+    width: 80%;
+    background-color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.editor .top {
+    height: 40px;
+    background-color: #00161C;
+    padding: 10px 0 0 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.editor .top .bullet {
+    width: 14px;
+    height: 14px;
+    background-color: #4B5264;
+    margin: 10px 5px;
+    float: left;
+    border-radius: 10px;
+}
+
+.editor .content {
+    text-align: left;
+    font-size: 1.3em;
+}
+
+.editor .content a {
+    color: #fff;
+}
+
+.editor .hljs-section {
+    display: block;
+    margin-top: 2rem;
+}
+
+.editor code {
+    padding: 2em;
+}
+
+@media only screen and (max-device-width: 320px) {
+    .insideout-logo {
+        width: 85%;
+    }
+
+    pre {
+        white-space: pre-wrap;
+    }
+
+    .editor {
+        width: 92%;
+    }
+
+    .editor .content {
+        font-size: 1.2em;
+    }
+
+    .editor .content a {
+        font-size: 0.8em;
+    }
+
+    .editor code {
+        padding: 1.2em;
+    }
+
+
+}
